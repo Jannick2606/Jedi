@@ -10,9 +10,9 @@ namespace Jedi
         {
             Dictionary<string, int> nameAge = new Dictionary<string, int>() { };     //Opgave 1
             nameAge.Add("Jannick", 21);      //Opgave 2
-            nameAge.Add("Name", 50);
-            nameAge.Add("Han", 28);
-            nameAge.Add("Old", 100);
+            nameAge[ "Han"] = 26;
+            nameAge["Old"] = 100;
+            nameAge["Name"] = 50;
             Console.WriteLine(nameAge.First());  
 
             nameAge.Remove("Han");       //Opgave 3
